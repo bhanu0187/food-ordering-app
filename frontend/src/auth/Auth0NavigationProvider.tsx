@@ -14,7 +14,7 @@ const Auth0NavigationProvider = ({ children }: Auth0NavigationProps) => {
 	}
 
 	function onRedirectCallback(appState?: AppState, user?: User) {
-		console.log("User: " + user);
+		console.log("USER", user);
 	}
 
 	return (
